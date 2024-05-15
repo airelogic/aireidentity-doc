@@ -1,51 +1,99 @@
 [
   
     {
-      "title"    : "Data Source Configuration",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/data-source-config/",
-      "date"     : "2021-01-25 00:00:00 +0000"
-    } ,
-  
-    {
-      "title"    : "Subject Provider",
-      "category" : "",
-      "tags"     : "subject",
-      "url"      : "/docs/subject-provider/",
-      "date"     : "2021-01-25 00:00:00 +0000"
-    } ,
-  
-    {
-      "title"    : "User Mangagment",
+      "title"    : "Add policy",
       "category" : "",
       "tags"     : "access-control",
-      "url"      : "/docs/user-management/",
-      "date"     : "2021-02-08 00:00:00 +0000"
+      "url"      : "/docs/add-policy/",
+      "date"     : "2024-05-15 10:39:04 +0000"
     } ,
   
     {
-      "title"    : "Groups",
+      "title"    : "Add provider",
       "category" : "",
       "tags"     : "access-control",
-      "url"      : "/docs/groups/",
-      "date"     : "2021-03-11 00:00:00 +0000"
+      "url"      : "/docs/add-provider/",
+      "date"     : "2024-05-15 10:39:04 +0000"
     } ,
   
     {
-      "title"    : "Tenant Structure",
+      "title"    : "Add role",
       "category" : "",
-      "tags"     : "access-control,, structure,, organisation",
-      "url"      : "/docs/tenant-structure/",
-      "date"     : "2021-03-11 00:00:00 +0000"
+      "tags"     : "access-control",
+      "url"      : "/docs/add-role/",
+      "date"     : "2024-05-15 10:39:04 +0000"
     } ,
   
     {
-      "title"    : "Widget Designer",
+      "title"    : "Add user",
       "category" : "",
-      "tags"     : "widgets",
-      "url"      : "/docs/visualisation-designer/",
-      "date"     : "2021-06-08 00:00:00 +0000"
+      "tags"     : "access-control",
+      "url"      : "/docs/add-user/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Delete policy",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/delete-policy/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Delete provider",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/delete-provider/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Delete role",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/delete-role/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Delete user",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/delete-user/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Edit policy",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/edit-policy/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Edit provider",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/edit-provider/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Edit role",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/edit-role/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Edit user",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/edit-user/",
+      "date"     : "2024-05-15 10:39:04 +0000"
     } ,
   
     {
@@ -53,23 +101,47 @@
       "category" : "",
       "tags"     : "featured",
       "url"      : "/docs/getting-started/",
-      "date"     : "2021-06-22 00:00:00 +0000"
+      "date"     : "2024-05-15 10:39:04 +0000"
     } ,
   
     {
-      "title"    : "Subject Configuration",
+      "title"    : "Policy Mangagment overview",
       "category" : "",
-      "tags"     : "subject",
-      "url"      : "/docs/subject-configuration/",
-      "date"     : "2021-07-08 00:00:00 +0000"
+      "tags"     : "access-control,, featured",
+      "url"      : "/docs/policy-management-overview/",
+      "date"     : "2024-05-15 10:39:04 +0000"
     } ,
   
     {
-      "title"    : "Data Extracts",
+      "title"    : "Provider Mangagment overview",
       "category" : "",
-      "tags"     : "widgets",
-      "url"      : "/docs/data-extract-config/",
-      "date"     : "2021-07-13 00:00:00 +0000"
+      "tags"     : "access-control,, featured",
+      "url"      : "/docs/provider-management-overview/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Role Mangagment overview",
+      "category" : "",
+      "tags"     : "access-control,, featured",
+      "url"      : "/docs/role-management-overview/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "User Mangagment overview",
+      "category" : "",
+      "tags"     : "access-control,, featured",
+      "url"      : "/docs/user-management-overview/",
+      "date"     : "2024-05-15 10:39:04 +0000"
+    } ,
+  
+    {
+      "title"    : "Tenant Products",
+      "category" : "",
+      "tags"     : "access-control,, featured",
+      "url"      : "/docs/view-tenant-products/",
+      "date"     : "2024-05-15 10:39:04 +0000"
     } 
   
 ]

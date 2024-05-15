@@ -1,0 +1,14 @@
+version: '3.7'
+volumes:
+    gems: {}
+services:
+        jekyll:
+                build: .
+                ports: 
+                        - "4000:4000"
+                        - "35730:35730"
+                volumes:
+                        - ./_config.yml:/config/_config.yml
+                        - ./:/files
+                        - ./_site:/build
+                command: bundle exec jekyll serve -s /files -d /build --config /config/_config.yml --host 0.0.0.0 --force_polling --livereload --livereload-port 35730

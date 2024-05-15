@@ -4,20 +4,18 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - gem install bundler:2.1.4
           - bundler --version
           - bundle install
-          - JEKYLL_ENV=production bundle exec jekyll build -t  --config _config.yml -d _site/aireidentity-doc
-          - bundle exec htmlproofer ./_site --url-ignore "/#.*/,/http://.*/,/https://.*/"
+          - JEKYLL_ENV=production bundle exec jekyll build -t
+          - bundle exec htmlproofer ./_site --ignore-url "/#.*/,/http://.*/,/https://.*/"
   branches:
     master:
       - step:
           script:
-            - gem install bundler:2.1.4
             - bundler --version
             - bundle install
             - JEKYLL_ENV=production bundle exec jekyll build -t  --config _config.yml
-            # - bundle exec htmlproofer ./_site --url-ignore "/#.*/,/http://.*/,/https://.*/"
+            - bundle exec htmlproofer ./_site --ignore-url "/#.*/,/http://.*/,/https://.*/"
             - git clone https://github.com/airelogic/aireidentity-doc.git
             - cp -r /opt/atlassian/pipelines/agent/build/_site/* aireidentity-doc/
             - cd aireidentity-doc
