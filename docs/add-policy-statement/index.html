@@ -6,22 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Add provider | AireIdentity documentation</title>
+<title>Add policy statement | AireIdentity documentation</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="Add provider" />
+<meta property="og:title" content="Add policy statement" />
 <meta name="author" content="Karthik Murali" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="To add a provider, click the ‘Tenant’ item in the navigation bar. You will see information about your tenant. You may also land on the Users tab to begin with therefore you will need to click the ‘Providers’ tab to see a list of providers." />
-<meta property="og:description" content="To add a provider, click the ‘Tenant’ item in the navigation bar. You will see information about your tenant. You may also land on the Users tab to begin with therefore you will need to click the ‘Providers’ tab to see a list of providers." />
-<link rel="canonical" href="https://docs.identity.aireinnovate.com/docs/add-provider/" />
-<meta property="og:url" content="https://docs.identity.aireinnovate.com/docs/add-provider/" />
+<meta name="description" content="Now you have created a policy you will need to add statements. To amend the policy you must click on the edit icon (Pencil) found on the policies list." />
+<meta property="og:description" content="Now you have created a policy you will need to add statements. To amend the policy you must click on the edit icon (Pencil) found on the policies list." />
+<link rel="canonical" href="https://docs.identity.aireinnovate.com/docs/add-policy-statement/" />
+<meta property="og:url" content="https://docs.identity.aireinnovate.com/docs/add-policy-statement/" />
 <meta property="og:site_name" content="AireIdentity documentation" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-05-22T16:50:13+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Add provider" />
+<meta property="twitter:title" content="Add policy statement" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Murali"},"dateModified":"2024-05-22T16:50:13+00:00","datePublished":"2024-05-22T16:50:13+00:00","description":"To add a provider, click the ‘Tenant’ item in the navigation bar. You will see information about your tenant. You may also land on the Users tab to begin with therefore you will need to click the ‘Providers’ tab to see a list of providers.","headline":"Add provider","mainEntityOfPage":{"@type":"WebPage","@id":"https://docs.identity.aireinnovate.com/docs/add-provider/"},"url":"https://docs.identity.aireinnovate.com/docs/add-provider/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Murali"},"dateModified":"2024-05-22T16:50:13+00:00","datePublished":"2024-05-22T16:50:13+00:00","description":"Now you have created a policy you will need to add statements. To amend the policy you must click on the edit icon (Pencil) found on the policies list.","headline":"Add policy statement","mainEntityOfPage":{"@type":"WebPage","@id":"https://docs.identity.aireinnovate.com/docs/add-policy-statement/"},"url":"https://docs.identity.aireinnovate.com/docs/add-policy-statement/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="https://docs.identity.aireinnovate.com/assets/posts/"/>
@@ -205,7 +205,7 @@
         
           
           
-          <li class="uk-active"><a href="/docs/add-provider/">Add provider</a></li>
+          <li class=""><a href="/docs/add-provider/">Add provider</a></li>
         
           
           
@@ -230,7 +230,7 @@
         
           
           
-          <li class=""><a href="/docs/add-policy-statement/">Add policy statement</a></li>
+          <li class="uk-active"><a href="/docs/add-policy-statement/">Add policy statement</a></li>
         
           
           
@@ -249,9 +249,9 @@
 
                 <article class="uk-article">
 
-                    <h1 class="uk-article-title">Add provider</h1>
+                    <h1 class="uk-article-title">Add policy statement</h1>
 
-                    <p class="subtitle uk-text-lead uk-text-muted">Add provider to tenant</p>
+                    <p class="subtitle uk-text-lead uk-text-muted">To add statements to a tenant policy</p>
 
                     <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom">
                         
@@ -268,15 +268,44 @@
                     </div>
 
                     <div class="article-content">
-                        <p>To add a provider, click the ‘Tenant’ item in the navigation bar. You will see information about your tenant. You may also land on the Users tab to begin with therefore you will need to click the ‘Providers’ tab to see a list of providers.</p>
+                        <p>Now you have created a policy you will need to add statements. To amend the policy you must click on the edit icon (Pencil) found on the policies list.</p>
 
-<p><img src="/assets/screenshots/providers/tenant-landing-page-provider-tab.png" alt="tenant landing page providers tab" /></p>
+<p><img src="/assets/screenshots/policies/edit-policy.png" alt="edit policy" /></p>
 
-<p>Click the ‘Add Provider’ option to add a SAML provider.</p>
+<p>You will then be presented with the statement screen where you can add new statements by clicking on the ‘Add Statement’ button.</p>
 
-<p><img src="/assets/screenshots/providers/add-provider.png" alt="add provider page" /></p>
+<p><img src="/assets/screenshots/policies/add-policy-statement-landing.png" alt="add policy statement landing" /></p>
 
-<p>Here you can enter a scheme and display name for your new provider, identity provider settings and nameId. Click save to add the provider to your tenant.</p>
+<p>Once you have selected the statement button you will then be presented with a dialog modal where you will set the ‘Scope’, ‘Permission Set’, ‘Permissions’, ‘Effect’ and ‘Resources’.</p>
+
+<p><img src="/assets/screenshots/policies/add-policy-statement.png" alt="add policy statement" /></p>
+
+<ul>
+  <li><strong>Permission Set</strong> - Here you select the permissions set for the statement, this will be based on the permissions available from the selected ‘Scope’</li>
+  <li><strong>Permissions</strong> - Here you select the permissions for the statement, this will be based on the permissions available from the selected ‘Permissions Set’ e.g. view:SubjectCustomField.</li>
+  <li><strong>Effect</strong> - This selects whether you wish to ‘Allow’ or ‘Block’ permissions within the statement. Note: Blocking a resource will deny access to the resource, even if the resource is allowed by another statement.</li>
+  <li><strong>Resources</strong> - Here you add the resources for this statement.</li>
+</ul>
+
+<p>For example, the <code class="highlighter-rouge">AireFrameApi</code> scope has a <code class="highlighter-rouge">Custom Fields</code> permission set which controls which fields are visible in <code class="highlighter-rouge">AireFrame</code>. These resources must match one of the following templates:</p>
+
+<ul>
+  <li>Subject/${InternalSubjectId}/FieldGroup/${FieldGroupKey}/Field/${CustomFieldKey}</li>
+  <li>Subject/${InternalSubjectId}/Field/${CustomFieldKey}</li>
+  <li>Subject/${InternalSubjectId}</li>
+  <li>FieldGroup/${FieldGroupKey}/Field/${CustomFieldKey}</li>
+  <li>FieldGroup/${FieldGroupKey}</li>
+  <li>Field/${CustomFieldKey}</li>
+</ul>
+
+<p>To allow access to a specific FieldGroup, select the <code class="highlighter-rouge">Allow</code> effect and specify the resource:</p>
+<ul>
+  <li>FieldGroup/my-field-group</li>
+</ul>
+
+<p>Once you have finished updating the resource, click on the ‘Update’ button to save the changes.</p>
+
+<p><img src="/assets/screenshots/policies/save-edited-policy.png" alt="save edited policy" /></p>
 
                     </div>
 
@@ -297,10 +326,6 @@
 
     
 
-    
-        <li><a href="/docs/add-policy-statement/">Add policy statement</a></li>
-        
-        
     
 
     
@@ -336,6 +361,10 @@
 
     
 
+    
+        <li><a href="/docs/add-provider/">Add provider</a></li>
+        
+        
     
 
     
@@ -462,7 +491,7 @@
         
           
           
-          <li class="uk-active"><a href="/docs/add-provider/">Add provider</a></li>
+          <li class=""><a href="/docs/add-provider/">Add provider</a></li>
         
           
           
@@ -487,7 +516,7 @@
         
           
           
-          <li class=""><a href="/docs/add-policy-statement/">Add policy statement</a></li>
+          <li class="uk-active"><a href="/docs/add-policy-statement/">Add policy statement</a></li>
         
           
           

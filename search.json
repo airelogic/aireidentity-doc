@@ -1,11 +1,27 @@
 [
   
     {
+      "title"    : "Add policy statement",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/add-policy-statement/",
+      "date"     : "2024-05-22 16:50:13 +0000"
+    } ,
+  
+    {
+      "title"    : "Apply policy to tenant role",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/add-policy-to-role/",
+      "date"     : "2024-05-22 16:50:13 +0000"
+    } ,
+  
+    {
       "title"    : "Add policy",
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/add-policy/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -13,7 +29,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/add-provider/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -21,7 +37,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/add-role/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -29,7 +45,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/add-user/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -37,7 +53,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/delete-policy/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -45,7 +61,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/delete-provider/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -53,7 +69,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/delete-role/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -61,15 +77,7 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/delete-user/",
-      "date"     : "2024-05-15 10:39:04 +0000"
-    } ,
-  
-    {
-      "title"    : "Edit policy",
-      "category" : "",
-      "tags"     : "access-control",
-      "url"      : "/docs/edit-policy/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -77,15 +85,23 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/edit-provider/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
-      "title"    : "Edit role",
+      "title"    : "Editing Role name/description",
       "category" : "",
       "tags"     : "access-control",
-      "url"      : "/docs/edit-role/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "url"      : "/docs/edit-role-description/",
+      "date"     : "2024-05-22 16:50:13 +0000"
+    } ,
+  
+    {
+      "title"    : "Adding / Editing Role Permissions",
+      "category" : "",
+      "tags"     : "access-control",
+      "url"      : "/docs/edit-role-permissions/",
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -93,7 +109,15 @@
       "category" : "",
       "tags"     : "access-control",
       "url"      : "/docs/edit-user/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
+    } ,
+  
+    {
+      "title"    : "Environments",
+      "category" : "",
+      "tags"     : "featured",
+      "url"      : "/docs/environments/",
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -101,7 +125,7 @@
       "category" : "",
       "tags"     : "featured",
       "url"      : "/docs/getting-started/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -109,7 +133,7 @@
       "category" : "",
       "tags"     : "access-control,, featured",
       "url"      : "/docs/policy-management-overview/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -117,7 +141,7 @@
       "category" : "",
       "tags"     : "access-control,, featured",
       "url"      : "/docs/provider-management-overview/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -125,7 +149,7 @@
       "category" : "",
       "tags"     : "access-control,, featured",
       "url"      : "/docs/role-management-overview/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -133,7 +157,7 @@
       "category" : "",
       "tags"     : "access-control,, featured",
       "url"      : "/docs/user-management-overview/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } ,
   
     {
@@ -141,7 +165,7 @@
       "category" : "",
       "tags"     : "access-control,, featured",
       "url"      : "/docs/view-tenant-products/",
-      "date"     : "2024-05-15 10:39:04 +0000"
+      "date"     : "2024-05-22 16:50:13 +0000"
     } 
   
 ]

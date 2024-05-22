@@ -11,17 +11,17 @@
 <meta property="og:title" content="Getting Started" />
 <meta name="author" content="Karthik Murali" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="First, navigate to AireIdentity:" />
-<meta property="og:description" content="First, navigate to AireIdentity:" />
+<meta name="description" content="Introduction" />
+<meta property="og:description" content="Introduction" />
 <link rel="canonical" href="https://docs.identity.aireinnovate.com/docs/getting-started/" />
 <meta property="og:url" content="https://docs.identity.aireinnovate.com/docs/getting-started/" />
 <meta property="og:site_name" content="AireIdentity documentation" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-05-15T10:39:04+00:00" />
+<meta property="article:published_time" content="2024-05-22T16:50:13+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Getting Started" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Murali"},"dateModified":"2024-05-15T10:39:04+00:00","datePublished":"2024-05-15T10:39:04+00:00","description":"First, navigate to AireIdentity:","headline":"Getting Started","mainEntityOfPage":{"@type":"WebPage","@id":"https://docs.identity.aireinnovate.com/docs/getting-started/"},"url":"https://docs.identity.aireinnovate.com/docs/getting-started/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Murali"},"dateModified":"2024-05-22T16:50:13+00:00","datePublished":"2024-05-22T16:50:13+00:00","description":"Introduction","headline":"Getting Started","mainEntityOfPage":{"@type":"WebPage","@id":"https://docs.identity.aireinnovate.com/docs/getting-started/"},"url":"https://docs.identity.aireinnovate.com/docs/getting-started/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="https://docs.identity.aireinnovate.com/assets/posts/"/>
@@ -135,6 +135,10 @@
           
           <li class="uk-active"><a href="/docs/getting-started/">Getting Started</a></li>
         
+          
+          
+          <li class=""><a href="/docs/environments/">Environments</a></li>
+        
         </ul>
         
         <h5>User Management</h5>
@@ -171,7 +175,11 @@
         
           
           
-          <li class=""><a href="/docs/edit-role/">Edit role</a></li>
+          <li class=""><a href="/docs/edit-role-permissions/">Adding / Editing Role Permissions</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/edit-role-description/">Editing Role name/description</a></li>
         
           
           
@@ -222,7 +230,11 @@
         
           
           
-          <li class=""><a href="/docs/edit-policy/">Edit policy</a></li>
+          <li class=""><a href="/docs/add-policy-statement/">Add policy statement</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/add-policy-to-role/">Apply policy to tenant role</a></li>
         
           
           
@@ -256,36 +268,39 @@
                     </div>
 
                     <div class="article-content">
-                        <p>First, navigate to <a href="https://identity.aireinnovate.com">AireIdentity</a>:</p>
+                        <h2 id="introduction">Introduction</h2>
+
+<p>AireIdentity is AireInnovate’s identity management platform used to provide authentication access to the core product suite such as AireForms and Aireframe.</p>
+
+<p>First, navigate to <a href="https://identity.aireinnovate.com">https://identity.aireinnovate.com</a> by clicking on this link or typing the URL into your browser.</p>
 
 <p><img src="/assets/screenshots/getting-started/login-page.png" alt="login page" /></p>
 
-<p>Log into your account using the method you originally signed in with, either username and password or an external authentication (like Google)</p>
+<p>Log into your account using the username and password you originally signed in with when registering for Aire Identity. If you have forgotten your password then click on the “Forgotten  your password?” link and this will guide you through the steps to reset your password. If you still have issues logging in then please contact support@aireinnovate.com where one of the support teams will be able to assist you.</p>
 
-<p>If you are presented with a tenant environment selection, choose the tenant and environment you wish to login to, then press continue</p>
+<p>If you are presented with a tenant environment selection, choose the tenant and environment you wish to log in to (e.g. University of Sheffield - Production), then press continue.</p>
 
 <p><img src="/assets/screenshots/getting-started/tenant-selection.png" alt="tenant selection page" /></p>
+
+<p><strong>Note: You will only see this screen if you have multiple tenants or environments assigned to your account (e.g Production, Staging and Development)</strong></p>
 
 <p>Once logged in you will be presented with a list of AireSuite applications that you can launch</p>
 
 <p><img src="/assets/screenshots/getting-started/home-page.png" alt="home page" /></p>
 
-<h2 id="environments">Environments</h2>
+<p>To access the tenant management screens for Aire Identity click on the ‘Tenant’ link located at the top of the screen next to the Aire Identity logo.</p>
 
-<p>Your tenant will contain sandbox (sandbox), development (dev), staging (stag) and production (prod) environments. Each environment will have segregated access to the AireSuite products.</p>
+<p><img src="/assets/screenshots/users/tenant-landing-page.png" alt="tenant landing page" /></p>
 
-<p>Users are given access along with role(s) on an environment by environment basis.
-For example:</p>
+<p>Once clicked you will see information about the Tenant along with a selection of Tabs showing ‘Users, Roles, Policies, Products and Providers’.</p>
+
 <ul>
-  <li>Jane Doe has access to the development environment with an admin role, and the staging environment with a tester role, and no access to the production environment,</li>
-  <li>Steve Jameson may only have access to the production environment as a clinician</li>
+  <li><strong>Users</strong> - This is where you can add / edit / delete users in the tenant you are logged into.</li>
+  <li><strong>Roles</strong> - This is where you can add / edit / delete roles in the tenant you are logged into.</li>
+  <li><strong>Policies</strong> - This is where you add / edit / delete new policies to be applied against roles.</li>
+  <li><strong>Products</strong> - This is where a list of products are shown that are linked to the tenant e.g. AireForms, Airframe, AireGlu etc.</li>
+  <li><strong>Providers</strong> - Identity providers are used to authenticate users in your tenant. You can add and configure which identity providers are allowed for your users when logging in (e.g. Google / Azure / SAML2)</li>
 </ul>
-
-<p>When managing users through AireAuth you can only grant them access to and give them a role in the environment that you are currently logged into.</p>
-
-<p>In order to make it easier to manage users across different environments, an environment switcher is available underneath the user menu in the top right corner.</p>
-
-<p><img src="/assets/screenshots/getting-started/environment-selection.png" alt="environment selection page" /></p>
 
                     </div>
 
@@ -424,6 +439,37 @@ For example:</p>
     
 
     
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/environments/">Environments</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
         <li><a href="/docs/policy-management-overview/">Policy Mangagment overview</a></li>
         
         
@@ -451,19 +497,6 @@ For example:</p>
 
     
         <li><a href="/docs/role-management-overview/">Role Mangagment overview</a></li>
-        
-        
-    
-
-    
-
-    
-    
-
-    
-
-    
-        <li><a href="/docs/user-management-overview/">User Mangagment overview</a></li>
         
         
             
@@ -509,6 +542,10 @@ For example:</p>
           
           <li class="uk-active"><a href="/docs/getting-started/">Getting Started</a></li>
         
+          
+          
+          <li class=""><a href="/docs/environments/">Environments</a></li>
+        
         </ul>
         
         <h5 class="uk-margin-top">User Management</h5>
@@ -545,7 +582,11 @@ For example:</p>
         
           
           
-          <li class=""><a href="/docs/edit-role/">Edit role</a></li>
+          <li class=""><a href="/docs/edit-role-permissions/">Adding / Editing Role Permissions</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/edit-role-description/">Editing Role name/description</a></li>
         
           
           
@@ -596,7 +637,11 @@ For example:</p>
         
           
           
-          <li class=""><a href="/docs/edit-policy/">Edit policy</a></li>
+          <li class=""><a href="/docs/add-policy-statement/">Add policy statement</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/add-policy-to-role/">Apply policy to tenant role</a></li>
         
           
           

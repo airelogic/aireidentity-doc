@@ -5,7 +5,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/404.html</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -14,7 +14,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/changelog/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -23,7 +23,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/contact/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -32,7 +32,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -41,7 +41,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -50,7 +50,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/assets/css/main.css</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -59,7 +59,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/news/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -68,7 +68,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/search.json</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -77,7 +77,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/sitemap.xml</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -86,7 +86,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/feed.xml</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -94,9 +94,27 @@
   
   
   <url>
+    <loc>https://docs.identity.aireinnovate.com/docs/add-policy-statement/</loc>
+    
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.identity.aireinnovate.com/docs/add-policy-to-role/</loc>
+    
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
     <loc>https://docs.identity.aireinnovate.com/docs/add-policy/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -105,7 +123,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/add-provider/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -114,7 +132,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/add-role/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -123,7 +141,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/add-user/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -132,7 +150,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/delete-policy/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -141,7 +159,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/delete-provider/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -150,7 +168,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/delete-role/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -159,16 +177,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/delete-user/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  
-  <url>
-    <loc>https://docs.identity.aireinnovate.com/docs/edit-policy/</loc>
-    
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -177,16 +186,25 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/edit-provider/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   
   <url>
-    <loc>https://docs.identity.aireinnovate.com/docs/edit-role/</loc>
+    <loc>https://docs.identity.aireinnovate.com/docs/edit-role-description/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.identity.aireinnovate.com/docs/edit-role-permissions/</loc>
+    
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -195,7 +213,16 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/edit-user/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.identity.aireinnovate.com/docs/environments/</loc>
+    
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -204,7 +231,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/getting-started/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -213,7 +240,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/policy-management-overview/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -222,7 +249,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/provider-management-overview/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -231,7 +258,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/role-management-overview/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -240,7 +267,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/user-management-overview/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -249,7 +276,7 @@
   <url>
     <loc>https://docs.identity.aireinnovate.com/docs/view-tenant-products/</loc>
     
-      <lastmod>2024-05-15T10:39:04+00:00</lastmod>
+      <lastmod>2024-05-22T16:50:13+00:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
